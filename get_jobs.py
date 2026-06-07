@@ -15,6 +15,7 @@ WINDOWS_X64 = "windows-2022"
 MACOS_ARM64 = "macos-15"
 
 TORCH_RELEASES = {
+    "2.1.2": TorchRelease(("3.8", "3.9", "3.10", "3.11"), ("cpu", "cu118", "cu121", "rocm5.6")),
     "2.3.0": TorchRelease(("3.8", "3.9", "3.10", "3.11", "3.12"), ("cpu", "cu118", "cu121", "rocm6.0")),
     "2.3.1": TorchRelease(("3.8", "3.9", "3.10", "3.11", "3.12"), ("cpu", "cu118", "cu121", "rocm6.0")),
     "2.4.0": TorchRelease(("3.8", "3.9", "3.10", "3.11", "3.12"), ("cpu", "cu118", "cu121", "cu124", "rocm6.1")),
